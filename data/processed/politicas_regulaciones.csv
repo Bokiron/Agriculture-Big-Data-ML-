@@ -1,0 +1,30 @@
+﻿codigo_pais,nombre_pais,tipo,vigente,anio_implementacion,multa_hectarea,multa_incumplimiento,porcentaje_minimo
+ARG,Argentina,pesticidas_neonicotinoides,,2010,,,
+ARG,Argentina,uso_agua,,2012,,,
+ARG,Argentina,etanol_mezcla,,2013,,,
+BRA,Brasil,deforestacion,,2018,4548.0,,
+BRA,Brasil,reservas_legales,,2017,,,20.0
+BRA,Brasil,etanol_mezcla,,2015,,,
+USA,Estados Unidos,pesticidas_neonicotinoides,,2015,,,
+USA,Estados Unidos,uso_agua,,2018,,,
+IND,India,bienestar_animal,,2019,,,
+IND,India,pesticidas_neonicotinoides,,2018,,,
+CHN,China,uso_agua,,2014,,,
+CHN,China,pesticidas_neonicotinoides,,2015,,,
+CHN,China,emisiones_ganaderas,,2020,,,
+FRA,Francia,rotacion_cultivos,,2011,,7039.0,
+FRA,Francia,uso_agua,,2017,,,
+DEU,Alemania,pesticidas_neonicotinoides,,2015,,,
+DEU,Alemania,deforestacion,,2016,708.0,,
+AUS,Australia,deforestacion,,2018,1838.0,,
+AUS,Australia,reservas_legales,,2015,,,42.0
+MEX,México,etanol_mezcla,,2013,,,
+MEX,México,rotacion_cultivos,,2010,,4694.0,
+KEN,Kenia,rotacion_cultivos,,2018,,2113.0,
+KEN,Kenia,rotacion_cultivos,,2019,,1589.0,
+KEN,Kenia,reservas_legales,,2019,,,51.0
+NZL,Nueva Zelanda,emisiones_ganaderas,,2012,,,
+NZL,Nueva Zelanda,reservas_legales,,2015,,,32.0
+NZL,Nueva Zelanda,pesticidas_neonicotinoides,,2016,,,
+ESP,España,reservas_legales,,2020,,,33.0
+ESP,España,etanol_mezcla,,2017,,,
