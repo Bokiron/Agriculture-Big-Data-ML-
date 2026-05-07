@@ -1,0 +1,25 @@
+{
+  "modelo": "KMeans",
+  "n_clusters": 3,
+  "features": [
+    "intensidad_emisiones",
+    "eficiencia_carne",
+    "flag_emision_extrema",
+    "ganado_avicola",
+    "ganado_bovino",
+    "ganado_caprino",
+    "ganado_ovino",
+    "ganado_porcino"
+  ],
+  "silhouette_score": 0.6669,
+  "davies_bouldin": 0.747,
+  "inercia_wcss": 2047.82,
+  "n_registros_entrenamiento": 600,
+  "etiquetas_negocio": {
+    "0": "Baja Emisión (Dominio Avícola/Ovino)",
+    "2": "Impacto Medio (Mix Ganadero Equilibrado)",
+    "1": "Alta Emisión (Bovino Intensivo)"
+  },
+  "fecha_entrenamiento": "2026-05-07 13:41:08",
+  "descripcion": "Segmentación de países por huella de carbono ganadera"
+}
