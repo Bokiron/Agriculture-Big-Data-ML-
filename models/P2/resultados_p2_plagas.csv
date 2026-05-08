@@ -1,0 +1,101 @@
+﻿fecha,año,mes,region,pais,cultivo,tipo_agente,agente,severidad,severidad_num,area_ha,tipo_tratamiento,producto_tratamiento,eficacia_pct,perdida_pct,sentimiento_negativo_mes,probabilidad_riesgo_severo,prediccion_umbral_050,prediccion_umbral_050_label,prediccion_umbral_opt,prediccion_umbral_opt_label,riesgo_real,riesgo_real_label,resultado_clasificacion,shap_sentimiento_nlp,confianza_modelo
+2020-01-01,2020,1,Región Principal,China,Arroz,plaga,Barrenador del tallo,media,2,2745.0,Químico,Epoxiconazole,93.0,26.0,0.0,0.4684,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-01-13,2020,1,Región Principal,Francia,Caña de azúcar,plaga,Chinche marrón,crítica,4,3943.0,Cultural,Control manual,97.0,17.0,0.0,0.4509,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-01-15,2020,1,Cerrado,Brasil,Maíz,plaga,Oruga militar tardía,alta,3,10.0,Cultural,Fecha de siembra ajustada,82.0,38.0,0.0,0.4721,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-01-18,2020,1,Mata Atlántica,Brasil,Maíz,plaga,Barrenador del tallo,crítica,4,3064.0,Biológico,Trichogramma spp.,83.0,3.0,0.0,0.4118,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-01-23,2020,1,Patagonia,Argentina,Soja,plaga,Langosta,media,2,995.0,Biológico,Trichogramma spp.,75.0,2.0,0.0,0.3573,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-01-25,2020,1,Pampas,Brasil,Arroz,enfermedad,Podredumbre,alta,3,2222.0,Biológico,Nematodos entomopatógenos,88.0,32.0,0.0,0.4241,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-01-27,2020,1,Corn Belt,Estados Unidos,Arroz,plaga,Ácaro,baja,1,314.0,Físico,Barreras físicas,96.0,31.0,0.0,0.351,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-02-03,2020,2,Corn Belt,Estados Unidos,Maíz,plaga,Mosca blanca,alta,3,3935.0,Químico,Lambda-cihalotrin,70.0,19.0,0.0,0.8349,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Alta
+2020-02-17,2020,2,Coastal,India,Arroz,enfermedad,Piricularia,crítica,4,4588.0,Físico,Trampas de feromonas,92.0,5.0,0.0,0.6077,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-02-22,2020,2,Región Principal,Francia,Soja,plaga,Langosta,media,2,3067.0,Cultural,Control manual,87.0,36.0,0.0,0.6517,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-02-25,2020,2,Región Principal,Francia,Girasol,plaga,Ácaro,alta,3,3839.0,Cultural,Fecha de siembra ajustada,74.0,33.0,0.0,0.8086,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Alta
+2020-03-07,2020,3,Región Principal,Alemania,Girasol,plaga,Mosca blanca,media,2,2736.0,Cultural,Control manual,84.0,30.0,0.0,0.3764,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-03-20,2020,3,California,Estados Unidos,Maíz,plaga,Chinche marrón,alta,3,4435.0,Químico,Imidacloprid,96.0,15.0,0.0,0.5161,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-04-03,2020,4,Región Principal,Alemania,Soja,enfermedad,Podredumbre,baja,1,4266.0,Biológico,Nematodos entomopatógenos,70.0,18.0,0.0,0.6061,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-04-18,2020,4,California,Estados Unidos,Arroz,plaga,Pulgón,alta,3,4502.0,Físico,Control térmico,91.0,27.0,0.0,0.5672,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-04-22,2020,4,Región Principal,Francia,Algodón,plaga,Langosta,media,2,1552.0,Biológico,Nematodos entomopatógenos,95.0,8.0,0.0,0.2841,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Alta
+2020-04-30,2020,4,California,Estados Unidos,Soja,plaga,Ácaro,alta,3,1724.0,Biológico,Bacillus thuringiensis,70.0,3.0,0.0,0.6245,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-05-01,2020,5,Región Principal,China,Soja,plaga,Gusano cogollero,baja,1,2086.0,Físico,Trampas de feromonas,83.0,24.0,0.0,0.5566,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-05-12,2020,5,Región Principal,Alemania,Maíz,plaga,Pulgón,media,2,2498.0,Físico,Control térmico,88.0,32.0,0.0,0.3491,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-05-23,2020,5,Pampa Húmeda,Argentina,Caña de azúcar,plaga,Pulgón,baja,1,2105.0,Físico,Barreras físicas,94.0,36.0,0.0,0.2938,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Alta
+2020-06-05,2020,6,Mata Atlántica,Brasil,Algodón,enfermedad,Oídio,baja,1,3122.0,Biológico,Trichogramma spp.,94.0,7.0,0.0,0.2597,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Alta
+2020-06-13,2020,6,Región Principal,China,Café,plaga,Gusano cogollero,crítica,4,3121.0,Cultural,Rotación de cultivos,89.0,32.0,0.0,0.4694,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-06-14,2020,6,Región Principal,Francia,Cebada,plaga,Ácaro,baja,1,94.0,Químico,Clorantraniliprol,86.0,30.0,0.0,0.555,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-06-16,2020,6,California,Estados Unidos,Caña de azúcar,plaga,Ácaro,baja,1,2084.0,Biológico,Nematodos entomopatógenos,86.0,33.0,0.0,0.487,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-06-19,2020,6,Wheatbelt,Australia,Cebada,plaga,Pulgón,crítica,4,908.0,Químico,Clorantraniliprol,76.0,32.0,0.0,0.566,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-06-27,2020,6,Coastal,India,Maíz,enfermedad,Roya de la hoja,crítica,4,369.0,Cultural,Rotación de cultivos,77.0,23.0,0.0,0.6843,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-07-11,2020,7,Tasmania,Australia,Arroz,enfermedad,Roya amarilla,baja,1,1357.0,Químico,Imidacloprid,93.0,40.0,0.0,0.3801,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-07-21,2020,7,Noroeste,Argentina,Caña de azúcar,plaga,Ácaro,baja,1,4312.0,Cultural,Control manual,87.0,8.0,0.0,0.3267,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-07-28,2020,7,Queensland Coast,Australia,Maíz,plaga,Ácaro,baja,1,543.0,Biológico,Trichogramma spp.,98.0,24.0,0.0,0.1582,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2020-08-05,2020,8,Región Principal,Alemania,Café,enfermedad,Roya de la hoja,baja,1,207.0,Químico,Clorantraniliprol,88.0,13.0,0.0,0.2354,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2020-08-16,2020,8,Deccan,India,Caña de azúcar,plaga,Langosta,baja,1,1529.0,Físico,Trampas de feromonas,87.0,4.0,0.0,0.4881,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-08-20,2020,8,Deccan,India,Trigo,plaga,Ácaro,baja,1,3056.0,Biológico,Nematodos entomopatógenos,95.0,2.0,0.0,0.3823,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-08-22,2020,8,Región Principal,China,Té,plaga,Chinche marrón,alta,3,2006.0,Físico,Trampas de feromonas,76.0,32.0,0.0,0.6767,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-08-30,2020,8,Murray-Darling Basin,Australia,Arroz,plaga,Gusano cogollero,media,2,1050.0,Químico,Clorantraniliprol,85.0,34.0,0.0,0.417,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-09-01,2020,9,Pacific Northwest,Estados Unidos,Arroz,enfermedad,Antracnosis,media,2,2160.0,Físico,Trampas de feromonas,94.0,29.0,0.0,0.4401,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-09-02,2020,9,Región Principal,Francia,Algodón,plaga,Pulgón,crítica,4,3694.0,Químico,Imidacloprid,85.0,34.0,0.0,0.6892,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-09-17,2020,9,Región Principal,Alemania,Trigo,plaga,Mosca blanca,crítica,4,624.0,Físico,Control térmico,70.0,28.0,0.0,0.5062,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-09-19,2020,9,Cerrado,Brasil,Trigo,plaga,Ácaro,alta,3,3815.0,Cultural,Fecha de siembra ajustada,96.0,36.0,0.0,0.3859,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-09-29,2020,9,Región Principal,Francia,Cebada,plaga,Ácaro,media,2,3854.0,Cultural,Rotación de cultivos,92.0,33.0,0.0,0.5452,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-10-05,2020,10,Mata Atlántica,Brasil,Cebada,enfermedad,Fusarium,media,2,2574.0,Cultural,Rotación de cultivos,88.0,14.0,0.0,0.3741,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-10-11,2020,10,Región Principal,China,Arroz,plaga,Ácaro,alta,3,2171.0,Físico,Control térmico,91.0,14.0,0.0,0.3417,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-10-24,2020,10,Great Plains,Estados Unidos,Cebada,plaga,Pulgón,alta,3,1684.0,Físico,Control térmico,86.0,13.0,0.0,0.4496,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-10-26,2020,10,Región Principal,China,Arroz,plaga,Pulgón,media,2,4081.0,Cultural,Rotación de cultivos,82.0,32.0,0.0,0.5854,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-11-07,2020,11,Región Principal,China,Té,plaga,Chinche marrón,alta,3,4974.0,Biológico,Trichogramma spp.,73.0,26.0,0.0,0.7229,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Alta
+2020-11-21,2020,11,Región Principal,Alemania,Maíz,plaga,Mosca blanca,crítica,4,3735.0,Cultural,Control manual,88.0,28.0,0.0,0.3176,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-11-25,2020,11,Región Principal,China,Maíz,plaga,Langosta,baja,1,3912.0,Físico,Barreras físicas,80.0,9.0,0.0,0.5791,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-11-28,2020,11,California,Estados Unidos,Soja,enfermedad,Piricularia,baja,1,585.0,Cultural,Rotación de cultivos,87.0,36.0,0.0,0.4914,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-12-03,2020,12,Pacific Northwest,Estados Unidos,Soja,plaga,Oruga militar tardía,baja,1,922.0,Cultural,Control manual,93.0,19.0,0.0,0.3138,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-12-08,2020,12,Región Principal,Alemania,Arroz,plaga,Mosca blanca,alta,3,1946.0,Químico,Clorantraniliprol,87.0,39.0,0.0,0.3371,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2020-12-14,2020,12,Coastal,India,Trigo,plaga,Oruga militar tardía,media,2,756.0,Cultural,Fecha de siembra ajustada,73.0,8.0,0.0,0.6451,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-12-18,2020,12,Región Principal,Alemania,Arroz,plaga,Chinche marrón,media,2,1815.0,Cultural,Rotación de cultivos,70.0,17.0,0.0,0.4169,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2020-12-29,2020,12,Región Principal,China,Algodón,plaga,Barrenador del tallo,baja,1,681.0,Físico,Control térmico,84.0,30.0,0.0,0.4236,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-01-01,2021,1,Región Principal,Alemania,Té,plaga,Mosca blanca,media,2,4036.0,Físico,Control térmico,80.0,22.0,0.75,0.6575,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Baja
+2021-01-02,2021,1,Tasmania,Australia,Café,enfermedad,Tizón tardío,alta,3,1193.0,Biológico,Nematodos entomopatógenos,96.0,26.0,0.75,0.3348,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-01-05,2021,1,Región Principal,Alemania,Arroz,plaga,Ácaro,alta,3,2047.0,Cultural,Rotación de cultivos,82.0,40.0,0.75,0.5331,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-01-20,2021,1,Wheatbelt,Australia,Maíz,plaga,Gusano cogollero,crítica,4,189.0,Físico,Control térmico,81.0,25.0,0.75,0.5671,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-01-27,2021,1,Noroeste,Argentina,Caña de azúcar,enfermedad,Mildiu,baja,1,3592.0,Cultural,Fecha de siembra ajustada,77.0,19.0,0.75,0.6782,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Baja
+2021-02-02,2021,2,Región Principal,China,Caña de azúcar,plaga,Barrenador del tallo,baja,1,3134.0,Cultural,Rotación de cultivos,94.0,16.0,0.0,0.364,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-02-04,2021,2,Corn Belt,Estados Unidos,Soja,plaga,Mosca blanca,crítica,4,1230.0,Cultural,Rotación de cultivos,97.0,29.0,0.0,0.359,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-02-09,2021,2,Pacific Northwest,Estados Unidos,Arroz,plaga,Gusano cogollero,media,2,765.0,Biológico,Nematodos entomopatógenos,90.0,13.0,0.0,0.3118,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-02-14,2021,2,Wheatbelt,Australia,Algodón,plaga,Barrenador del tallo,baja,1,561.0,Biológico,Trichogramma spp.,96.0,13.0,0.0,0.1476,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2021-02-23,2021,2,Mata Atlántica,Brasil,Caña de azúcar,enfermedad,Roya de la hoja,media,2,2022.0,Biológico,Trichogramma spp.,97.0,12.0,0.0,0.2366,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2021-03-08,2021,3,Región Principal,China,Café,plaga,Oruga militar tardía,crítica,4,1115.0,Químico,Clorantraniliprol,85.0,11.0,0.0,0.4531,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-03-22,2021,3,California,Estados Unidos,Arroz,plaga,Mosca blanca,crítica,4,2023.0,Físico,Trampas de feromonas,92.0,9.0,0.0,0.3827,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-04-03,2021,4,Punjab,India,Trigo,plaga,Ácaro,media,2,14.0,Cultural,Fecha de siembra ajustada,86.0,33.0,0.0,0.5681,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-04-14,2021,4,Región Principal,Alemania,Café,enfermedad,Oídio,alta,3,4970.0,Físico,Barreras físicas,86.0,28.0,0.0,0.4843,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-04-17,2021,4,Murray-Darling Basin,Australia,Trigo,plaga,Pulgón,alta,3,956.0,Físico,Barreras físicas,82.0,21.0,0.0,0.4329,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-04-23,2021,4,Noroeste,Argentina,Girasol,plaga,Oruga militar tardía,media,2,3577.0,Químico,Epoxiconazole,97.0,39.0,0.0,0.3699,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-05-06,2021,5,Pacific Northwest,Estados Unidos,Cebada,plaga,Oruga militar tardía,media,2,3606.0,Cultural,Fecha de siembra ajustada,82.0,31.0,0.75,0.7583,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Alta
+2021-05-18,2021,5,Wheatbelt,Australia,Girasol,plaga,Ácaro,baja,1,2020.0,Químico,Clorantraniliprol,79.0,25.0,0.75,0.677,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Baja
+2021-05-19,2021,5,Región Principal,Francia,Caña de azúcar,enfermedad,Mildiu,baja,1,4910.0,Cultural,Fecha de siembra ajustada,96.0,34.0,0.75,0.7084,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Alta
+2021-05-28,2021,5,Tasmania,Australia,Maíz,plaga,Pulgón,media,2,2552.0,Químico,Clorantraniliprol,73.0,11.0,0.75,0.7294,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.42502,Alta
+2021-06-09,2021,6,Región Principal,China,Maíz,plaga,Pulgón,baja,1,3682.0,Físico,Barreras físicas,95.0,31.0,0.0,0.4619,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-06-15,2021,6,Región Principal,Francia,Cebada,plaga,Gusano cogollero,crítica,4,4003.0,Físico,Control térmico,71.0,37.0,0.0,0.8517,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Alta
+2021-06-27,2021,6,Pampas,Brasil,Trigo,plaga,Langosta,alta,3,1189.0,Químico,Imidacloprid,72.0,26.0,0.0,0.676,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-07-02,2021,7,Región Principal,Alemania,Arroz,plaga,Oruga militar tardía,media,2,1603.0,Físico,Control térmico,76.0,28.0,0.0,0.4283,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-07-15,2021,7,California,Estados Unidos,Algodón,enfermedad,Tizón tardío,baja,1,552.0,Químico,Clorantraniliprol,78.0,32.0,0.0,0.6598,1,Severo,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-07-28,2021,7,Pampas,Brasil,Arroz,enfermedad,Roya de la hoja,crítica,4,945.0,Biológico,Nematodos entomopatógenos,84.0,23.0,0.0,0.3619,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-08-07,2021,8,Región Principal,Francia,Caña de azúcar,plaga,Pulgón,alta,3,4324.0,Químico,Lambda-cihalotrin,95.0,40.0,0.0,0.6217,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-08-20,2021,8,Punjab,India,Arroz,plaga,Mosca blanca,alta,3,4178.0,Cultural,Fecha de siembra ajustada,93.0,27.0,0.0,0.5532,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-08-21,2021,8,Región Principal,China,Cebada,enfermedad,Podredumbre,media,2,1803.0,Químico,Epoxiconazole,98.0,11.0,0.0,0.3184,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-09-05,2021,9,Mata Atlántica,Brasil,Café,plaga,Ácaro,crítica,4,4651.0,Cultural,Fecha de siembra ajustada,72.0,17.0,0.7999999999999999,0.7739,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.46017,Alta
+2021-09-08,2021,9,Queensland Coast,Australia,Soja,enfermedad,Piricularia,crítica,4,3335.0,Físico,Trampas de feromonas,83.0,32.0,0.7999999999999999,0.6964,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.46017,Baja
+2021-09-09,2021,9,Región Principal,Francia,Girasol,plaga,Langosta,crítica,4,3256.0,Químico,Epoxiconazole,83.0,17.0,0.7999999999999999,0.7779,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.46017,Alta
+2021-09-14,2021,9,Ganges,India,Té,plaga,Pulgón,crítica,4,688.0,Biológico,Bacillus thuringiensis,72.0,2.0,0.7999999999999999,0.7415,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.46017,Alta
+2021-09-17,2021,9,Región Principal,Alemania,Caña de azúcar,enfermedad,Roya de la hoja,baja,1,27.0,Físico,Trampas de feromonas,71.0,10.0,0.7999999999999999,0.5428,1,Severo,1,Severo,0,Manejable,Falso Positivo,0.46017,Baja
+2021-09-22,2021,9,Región Principal,Francia,Girasol,plaga,Mosca blanca,alta,3,828.0,Biológico,Nematodos entomopatógenos,72.0,4.0,0.7999999999999999,0.6967,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.46017,Baja
+2021-10-02,2021,10,Cuyo,Argentina,Arroz,enfermedad,Oídio,baja,1,2199.0,Cultural,Control manual,96.0,35.0,0.0,0.239,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2021-10-04,2021,10,Región Principal,China,Trigo,plaga,Mosca blanca,media,2,4227.0,Biológico,Trichogramma spp.,89.0,16.0,0.0,0.4288,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja
+2021-10-16,2021,10,Región Principal,China,Maíz,enfermedad,Roya de la hoja,crítica,4,3716.0,Cultural,Control manual,79.0,20.0,0.0,0.6329,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-10-27,2021,10,Región Principal,Alemania,Algodón,enfermedad,Fusarium,alta,3,1734.0,Químico,Epoxiconazole,74.0,11.0,0.0,0.449,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2021-10-28,2021,10,Cerrado,Brasil,Maíz,plaga,Langosta,media,2,1233.0,Biológico,Trichogramma spp.,94.0,23.0,0.0,0.2283,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2021-11-09,2021,11,Región Principal,Francia,Té,enfermedad,Mildiu,crítica,4,1014.0,Cultural,Control manual,76.0,32.0,0.0,0.7034,1,Severo,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Alta
+2021-11-20,2021,11,Cuyo,Argentina,Girasol,plaga,Pulgón,baja,1,410.0,Biológico,Trichogramma spp.,82.0,13.0,0.0,0.2297,0,Manejable,0,Manejable,0,Manejable,Verdadero Negativo,-0.1023,Alta
+2021-12-04,2021,12,Tasmania,Australia,Caña de azúcar,enfermedad,Antracnosis,crítica,4,1098.0,Cultural,Control manual,92.0,29.0,0.75,0.3793,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-12-15,2021,12,Región Principal,Francia,Té,plaga,Chinche marrón,alta,3,3416.0,Biológico,Trichogramma spp.,98.0,23.0,0.75,0.5037,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-12-18,2021,12,Cuyo,Argentina,Trigo,plaga,Langosta,alta,3,1666.0,Químico,Epoxiconazole,71.0,2.0,0.75,0.6276,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.42502,Baja
+2021-12-29,2021,12,Región Principal,Francia,Girasol,plaga,Gusano cogollero,crítica,4,4114.0,Químico,Imidacloprid,74.0,23.0,0.75,0.8733,1,Severo,1,Severo,1,Severo,Verdadero Positivo,0.42502,Alta
+2022-01-09,2022,1,Región Principal,China,Café,enfermedad,Tizón tardío,crítica,4,332.0,Físico,Control térmico,88.0,37.0,0.0,0.4897,0,Manejable,1,Severo,1,Severo,Verdadero Positivo,-0.1023,Baja
+2022-01-14,2022,1,Queensland Coast,Australia,Maíz,plaga,Ácaro,baja,1,3897.0,Físico,Barreras físicas,98.0,40.0,0.0,0.4014,0,Manejable,1,Severo,0,Manejable,Falso Positivo,-0.1023,Baja

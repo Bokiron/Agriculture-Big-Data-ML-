@@ -1,0 +1,5 @@
+pipeline,modelo,f1_score,precision_at_k,anomalias_detectadas,anomalias_reales,total_registros,modelo_produccion
+5A — Emisión Ganadera,Isolation Forest,0.6119402985074627,0.48,67,67,600,True
+5A — Emisión Ganadera,One-Class SVM,0.43478260869565216,0.35,71,67,600,False
+5B — Vegetación NDVI,Z-Score,0.125,0.16666666666666666,7,9,54,False
+5B — Vegetación NDVI,Autoencoder,0.21052631578947367,0.16666666666666666,10,9,54,True

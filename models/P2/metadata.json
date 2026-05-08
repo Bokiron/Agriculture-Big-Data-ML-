@@ -1,7 +1,7 @@
 {
   "modelo": "Regresión Logística",
   "version": "1.0.0",
-  "fecha_entrenamiento": "2026-05-07 13:43",
+  "fecha_entrenamiento": "2026-05-08 09:35",
   "parametros": {
     "C": 0.5,
     "solver": "lbfgs",
