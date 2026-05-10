@@ -47,7 +47,7 @@ Proyecto-Final-SBD/
 │
 ├── documentacion/
 │   ├── figures/                 # Gráficas generadas durante EDA, ETL y ML
-│   ├── memoria.odt              # Memoria del proyecto (editable)
+│   ├── memoria.odt              # Memoria del proyecto (word editable)
 │   └── memoria.pdf              # Memoria del proyecto (versión final)
 │
 ├── models/
