@@ -1,5 +1,0 @@
-Modelo,Nivel,RMSE (t/ha),MAE (t/ha),R²
-Lasso,Básico,6.9564 ± 0.7910,2.6314  ± 0.4026,0.9341  ± 0.0094
-RandomForest,Intermedio,9.4009 ± 2.3229,3.3142  ± 0.9209,0.8803  ± 0.0383
-XGBoost,Avanzado,10.1242 ± 5.6103,3.7410  ± 2.0030,0.8274  ± 0.2084
-MLP_NeuralNet,Avanzado+,12.6407 ± 4.6538,4.3366  ± 1.4562,0.7726  ± 0.1420

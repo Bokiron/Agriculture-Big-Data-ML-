@@ -1,5 +1,21 @@
+# Entorno virtual
 venv/
+.env
+
+# Python
 __pycache__/
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Datos crudos (demasiado pesados para el repo)
 data/raw/
-models/*.pkl
+
+# Modelos entrenados (regenerables ejecutando los notebooks)
+models/**/*.pkl
+models/**/*.joblib
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
