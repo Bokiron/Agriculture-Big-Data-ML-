@@ -1,0 +1,31 @@
+{
+  "modelo": "Regresión Logística",
+  "version": "1.0.0",
+  "fecha_entrenamiento": "2026-05-08 09:35",
+  "parametros": {
+    "C": 0.5,
+    "solver": "lbfgs",
+    "class_weight": "balanced",
+    "max_iter": 1000
+  },
+  "umbral_decision": 0.25114995064350487,
+  "features": [
+    "mes",
+    "area_ha",
+    "eficacia_pct",
+    "perdida_pct",
+    "sentimiento_negativo_mes",
+    "pais_enc",
+    "cultivo_enc",
+    "tipo_agente_enc",
+    "tipo_tratamiento_enc"
+  ],
+  "metricas_cv": {
+    "recall_umbral_opt": 0.9583,
+    "f1_umbral_opt": 0.6619,
+    "auc_roc": 0.5789,
+    "folds": 5,
+    "metodo_validacion": "StratifiedKFold"
+  },
+  "notas": "Umbral ajustado a 0.251 para maximizar Recall en detección de brotes severos. Con umbral por defecto (0.50): Recall=0.542."
+}

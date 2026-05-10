@@ -1,0 +1,72 @@
+{
+  "features_lstm": [
+    "spread_pct_lag_1",
+    "spread_pct_lag_3",
+    "spread_pct_lag_6",
+    "precio_base_lag_1",
+    "rolling_mean_3m",
+    "rolling_std_3m",
+    "mes",
+    "trimestre",
+    "semestre",
+    "producto_enc",
+    "tendencia_30_dias_num"
+  ],
+  "features_xgb": [
+    "spread_pct_lag_1",
+    "spread_pct_lag_3",
+    "spread_pct_lag_6",
+    "precio_base_lag_1",
+    "rolling_mean_3m",
+    "rolling_std_3m",
+    "mes",
+    "trimestre",
+    "semestre",
+    "producto_enc"
+  ],
+  "target": "spread_pct",
+  "window_lstm": 3,
+  "n_train_obs": 130,
+  "productos": [
+    "Arroz",
+    "Carne_bovina",
+    "Carne_porcina",
+    "Leche",
+    "Maíz",
+    "Soja",
+    "Trigo"
+  ],
+  "best_xgb_params": {
+    "subsample": 0.9,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.5,
+    "n_estimators": 50,
+    "min_child_weight": 5,
+    "max_depth": 5,
+    "learning_rate": 0.01,
+    "gamma": 0,
+    "colsample_bytree": 1.0
+  },
+  "metricas": {
+    "LSTM": {
+      "MAE": 0.0441373043387303,
+      "RMSE": 0.05234347963847483,
+      "DA": 0.5
+    },
+    "XGBoost_tuned": {
+      "MAE": 0.044004,
+      "RMSE": 0.051606,
+      "DA": 0.4625
+    },
+    "XGBoost_base": {
+      "MAE": 0.04921,
+      "RMSE": 0.059876000000000006,
+      "DA": 0.4625
+    },
+    "ARIMA": {
+      "MAE": 0.05158412855548574,
+      "RMSE": 0.05255413672804953,
+      "DA": 0.5
+    }
+  }
+}
